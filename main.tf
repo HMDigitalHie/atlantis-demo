@@ -1,7 +1,7 @@
 ##Test
 resource "azurerm_resource_group" "atlantis" {
   name     = "atlantis-resources"
-  location = "East US"
+  location = "West Europe"
 }
 
 resource "azurerm_virtual_network" "atlantis" {
